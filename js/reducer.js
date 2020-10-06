@@ -1,5 +1,6 @@
 // add code snippets from README
 let state
+let button = document.getElementById('button');
 
 function reducer(state = {count: 0}, action){
   switch (action.type) {
