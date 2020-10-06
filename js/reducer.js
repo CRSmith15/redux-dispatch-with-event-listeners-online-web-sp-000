@@ -22,3 +22,6 @@ function render(){
 }
 
 dispatch({type: 'beef'})
+
+button.addEventListener('click', () => {dispatch({type: 'INCREASE_COUNT'})
+})
